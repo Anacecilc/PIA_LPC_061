@@ -13,7 +13,7 @@ Siendo posible encontrar secciones tales como Scripting en Bash, en Powershell, 
 
 # Manejo de APIs
 Dentro de esta sección se encuentran los scripts que se realizaron en el curso, se pueden observan en ellos como se llev acabo el uso de las APIs utilizadas con Python.
--[Ver más](Manejo de APIs)
+-[Ver más](#Manejo de APIs)
 
 
 # Scripting en Powershell
