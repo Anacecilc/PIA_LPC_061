@@ -1,7 +1,11 @@
 # Manejo de APIs
 # Contenido 
 1° [Pokemon1.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Manejo%20de%20APIs/pokemon1.py)
+
+
 2° [Pokemon2.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Manejo%20de%20APIs/pokemon1.py)
+
+
 3° [Posteo.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Manejo%20de%20APIs/posteo.py)
 
  Como podemos observar en esta sección se encuentran contenidos 3 scripts en donde se hizo uso de Python.
