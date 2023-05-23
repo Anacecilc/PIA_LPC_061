@@ -13,22 +13,22 @@ Siendo posible encontrar secciones tales como Scripting en Bash, en Powershell, 
 
 # Manejo de APIs
 Dentro de esta sección se encuentran los scripts que se realizaron en el curso, se pueden observan en ellos como se llev acabo el uso de las APIs utilizadas con Python.
-[Ver más](Manejo de APIs)
+-[Ver más](Manejo de APIs)
 
 
 # Scripting en Powershell
 Dentro de esta sección puedes encontrar una serie de scripts donde su finalidad es realizar un escaneo de los puertos que se encuentran activos en nuestro equipo haciendo uso de Powershell.
-[Ver más](Scripting en Powershell)
+-[Ver más](Scripting en Powershell)
 
 
 # Scripting en Bash
 En esta sección se encuentran contenidos los scripts que realizamos con BASH, con la finalidad de poder lograr un par de escaneos de nuestro equipo.
-[Ver más](Scripting en Bash)
+-[Ver más](Scripting en Bash)
 
 
 # Encoding & Decoding
 En esta sección puedes encontrar scripts en Python y Powershell los cuales nos ayudan a la codificación y decodificación tanto de mensajes como de imagenes las cuales podemos obtener de un sitio web o de un archivo que tengamos previamente guardado en nuestra maquina.
-[Ver más](Encoding & Decoding)
+-[Ver más](Encoding & Decoding)
 
 
 # Webscraping
