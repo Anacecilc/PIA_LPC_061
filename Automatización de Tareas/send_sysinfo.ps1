@@ -31,17 +31,17 @@ $Object | Add-Member -MemberType NoteProperty -Name "OS" -Value $os
 $Object | Add-Member -MemberType NoteProperty -Name "CPU" -Value $cpu
 $Object | Add-Member -MemberType NoteProperty -Name "LoggedOnUsers" -Value $users
 $array = $Object
-$array | Export-Csv -Path C:\Users\anace\Desktop\pia\tareas\test.csv -NoTypeInformation # Aqui se genera archivo csv
+$array | Export-Csv -Path " " -NoTypeInformation # Aqui se genera archivo csv
 #
 #### Para Envio de correo
 #
-$Username = "ceciliacastillo070104@gmail.com";# Aqui va tu cuenta de gmail
-$Password = "anvj veqr sikk tnue";# Aqui va tu password de aplicación
-$path =" C:\\Users\\anace\\Desktop\\pia\\tareas\\test.csv ";# Aqui va la ruta de el archivo csv generado previamente
+$Username = "@gmail.com";# Aqui va tu cuenta de gmail
+$Password = "";# Aqui va tu password de aplicación
+$path =" ";# Aqui va la ruta de el archivo csv generado previamente
 
 function Send-ToEmail([string]$email, [string]$attachmentpath){
 $message = new-object Net.Mail.MailMessage;
-$message.From = "ceciliacastillo070104@gmail.com"; # Aqui va tu cuenta de gmail.
+$message.From = ""; # Aqui va tu cuenta de gmail.
 $message.To.Add($email);
 $message.Subject = "<INFO DEL EQUIPO>."; #Asunto del correo
 $message.Body = "<Envio de informacion de equipo"; #Cuerpo o Mensaje del correo.
@@ -56,4 +56,4 @@ $smtp.send($message);
 write-host "Mail Sent"; 
 $attachment.Dispose();
  }
-Send-ToEmail  -email "ana.lopezcst@gmail.com"-attachmentpath $path; # En email pones el destinatario
+Send-ToEmail  -email ""-attachmentpath $path; # En email pones el destinatario
