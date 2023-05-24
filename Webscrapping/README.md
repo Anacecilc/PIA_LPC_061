@@ -5,8 +5,6 @@
 2° [Scrape_quote.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Encoding%20%26%20Decoding/cypher.py)
 
 
-3° [Encode_imgur.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Webscrapping/scrape_quote.py)
-
  Como podemos observar en esta sección se encuentran contenidos 2 scripts haciendo uso del lenguaje de programación Python.
  
  
