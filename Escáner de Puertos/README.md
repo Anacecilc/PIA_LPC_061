@@ -3,26 +3,42 @@
 1° [Scan_portv1.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Esc%C3%A1ner%20de%20Puertos/scan_portv1.py)
 
 
-2° [Cypher.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Encoding%20%26%20Decoding/cypher.py)
+2° [Scan_portv2.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Esc%C3%A1ner%20de%20Puertos/scan_portv2.py)
 
 
-3° [Encode_imgur.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Encoding%20%26%20Decoding/encode_imgur.py)
+3° [Scan_portv3.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Esc%C3%A1ner%20de%20Puertos/scan_portv3.py)
 
 
-4° [Encode_imgur.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Encoding%20%26%20Decoding/encode_imgur.py)
+4° [Script.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Esc%C3%A1ner%20de%20Puertos/script.py)
 
- Como podemos observar en esta sección se encuentran contenidos 3 scripts, en esta ocasión haciendo uso de dos lenguajes: Python y Powershell.
+
+ Como podemos observar en esta sección se encuentran contenidos 4 scripts, haciendo uso del lenguaje Python.
  
  
- El 1° scripts utiliza Powershell para realizar una codificación y decodificación en base64, para realizar una codificación comienza leyendo un archivo anteriormente guardado en nuestro equipo para despúes codificarlo y mostrar el resultado, para el ejemplo de la decodificación hacemos lo mismo que realizamos anteriormente pero alreves, leemos el archivo previamente codificado y despúes lo decodifica mostrando su resultado final en pantalla .
+ El 1° script nos localizará y mostrará los puertos de nuestra IP que se encuentren abiertos.
  
  
- En el 2° script hacemos uso de una libreria llamada Cryptography la cual funciona al ingresar un mensaje que va ser guardado y pasar por el proceso de codificación y continuamente siendo decodificado, mostrando en pantalla como es que queda el mensaje en ambos procesos.
+ En el 2° script se llevara acabo el intento de conectarse a los puertos que se definen dentro del script.
  
- En el 3° script hacemos uso de request a una URL para poder obtener una imagen, al momento en el que se descarga sera codificada para despues decodificarla e imprimir su decodificación.
+ 
+ El 3° script tiene una similitud con el script 1° hablando de su función pero a diferencia de su antecesor este hace uso de varios hilos gracias a una libreria de Python llamada Threading
+ 
+El 4° script nos muestra un menú el cual nos da a escoger de 4 opciones de las cuales podemos realizar distintos tipos de escaneos, tales como de red, udp, uno total y uno para encontrar nuestro sistema operativo.
+ 
+En el escaneo de la red utilizamos una IP la cual la obtenemos con ping logrando saber el estado en el que se encuentra.
+
+
+En el escaneo total hace en una IP un escaneo de tipo TCP con la finalidad de obtener el estado en el que se hallan los puertos que se encuentran en esa dirección.
+
+
+En el escaneo udp utilizamos nmap para que realice en una IP un escaneo UDP, dando la situación en la que se encuentra los puertos que se encuentren en ella
+
+
+Por ultimo en el escaneo para encontrar el SO se detecta cual es el sistema operativo que trabaja en la IP que se ingreso.
  
  # Objetivo
- Nuestro principal objetivo en esta sección es ir conociendo mas de los dos lenguajes que previamente conocimos, utilizandolos para comenzar a descubrir nuevas herramientas, tales como la codificación y decodificación con la finalidad de encontrar información tanto de imagenes como de archivos que se encuentren en nuestro equipo.
+ Nuestro principal objetivo en esta sección es seguir realizando escaneos en este caso se necesitarios 2 librerias de Python, Nmap la cual ya habia sido utilizada y una llamada Socket. 
+ Seguimos aprendiendo y conociendo en que podemos llevar acabo escaneos para encontrar información valiosa o simplemente para hacer nuestras tareas más sencillas
  
 
 
