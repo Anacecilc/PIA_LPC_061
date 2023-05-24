@@ -10,6 +10,8 @@
  
  
  El 1° script realiza una obtención de información de nuestro dispositivo la cual almacena en un archivo csv, para despúes enviarlo a un usuario que se declare en el script
+ 
+ 
  (En el script colocado en esta sección se elimino los datos de su servidora por seguridad, pero cuenta con comentarios para que se pueda usar de la manera correcta al proporcionar sus datos correspondientes)
  
  En el 2° script se hace una programación de una tarea que se ejecuta de manera automática en el instante que se halla determinado en el anterior script, enviando asi lo que se desee en el script que se declare. 
