@@ -13,22 +13,22 @@ Siendo posible encontrar secciones tales como Scripting en Bash, en Powershell, 
 
 # Manejo de APIs
 Dentro de esta sección se encuentran los scripts que se realizaron en el curso, se pueden observan en ellos como se llev acabo el uso de las APIs utilizadas con Python.
--[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Manejo%20de%20APIs)
+[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Manejo%20de%20APIs)
 
 
 # Scripting en Powershell
 Dentro de esta sección puedes encontrar una serie de scripts donde su finalidad es realizar un escaneo de los puertos que se encuentran activos en nuestro equipo haciendo uso de Powershell.
--[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Scripting%20en%20Powershell)
+[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Scripting%20en%20Powershell)
 
 
 # Scripting en Bash
 En esta sección se encuentran contenidos los scripts que realizamos con BASH, con la finalidad de poder lograr un par de escaneos de nuestro equipo.
--[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Scripting%20en%20Bash)
+[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Scripting%20en%20Bash)
 
 
 # Encoding & Decoding
 En esta sección puedes encontrar scripts en Python y Powershell los cuales nos ayudan a la codificación y decodificación tanto de mensajes como de imagenes las cuales podemos obtener de un sitio web o de un archivo que tengamos previamente guardado en nuestra maquina.
--[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Encoding%20%26%20Decoding)
+[Ver más](https://github.com/Anacecilc/PIA_LPC_061/tree/main/Encoding%20%26%20Decoding)
 
 
 # Webscraping
