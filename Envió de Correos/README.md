@@ -1,6 +1,6 @@
 # Envió de Correos
 # Contenido 
-1° [Automap.sh](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Nmap/automap.sh)
+1° [Practica12.py](https://github.com/Anacecilc/PIA_LPC_061/blob/main/Envi%C3%B3%20de%20Correos/Practica12.py)
 
 
  Como podemos observar en esta sección se encuentran contenido un solo script el cual hace uso del lenguaje Python.
